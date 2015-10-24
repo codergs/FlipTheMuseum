@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>Flip Database for Teachers</title>
+    <!-- BOOTSTRAP CORE STYLE  -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT AWESOME ICONS  -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE  -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <strong>Email: </strong>mewseum@fia.umd
+                    &nbsp;&nbsp;
+                    <strong>Support: </strong>+333-333-3333
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END-->
+    <div class="navbar navbar-inverse set-radius-zero">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="firstpage.html">
+
+                    <img src="assets/img/logo.png" />
+                </a>
+
+            </div>
+
+            <div class="left-div">
+                <div class="user-settings-wrapper">
+                    <ul class="nav">
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                                <span class="glyphicon glyphicon-user" style="font-size: 25px;"></span>
+                            </a>
+                            <div class="dropdown-menu dropdown-settings">
+                                <div class="media">
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Flip Admin</h4>
+                                    </div>
+                                </div>
+                                <hr />
+                        
+                                <a href="index.html" class="btn btn-danger btn-sm">Logout</a>
+
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- LOGO HEADER END-->
+    <section class="menu-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="navbar-collapse collapse ">
+                        <ul id="menu-top" class="nav navbar-nav navbar-right">
+                            <li><a href="firstpage.html">Dashboard</a></li>
+                            <li><a href="table.php">Quizzes</a></li>
+                            <li><a class="menu-top-active"  href="forms.html">Create Quiz</a></li>
+                            <li><a href="aboutus.html">About Us</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- MENU SECTION END-->
+    <div class="content-wrapper">
+        <div class="container">
+              <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="page-head-line">Forms </h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="panel panel-default">
+                        <div class="panel-heading">
+                           BASIC  QUIZ ELEMENTS
+                        </div>
+                        <div class="panel-body">
+                       
+                            <form action="insert.php" method="post"/>
+                                <div class="form-group">
+   
+                                            <div class="form-group">
+                                                <label>Question Type</label>
+                                                <select class="form-control" name="questionType" id="questionType">
+                                                    <option>Easy</option>
+                                                    <option>Moderate</option>
+                                                    <option>Hard</option>
+                                                </select>
+                                            </div>
+
+
+
+                                            <div class="form-group">
+                                                <label for="questionTitle">Question Title</label>
+                                                <input type="text" class="form-control" name="questionTitle" id="questionTitle" placeholder="Question Title">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="choice1">Choice 1</label>
+                                                <input type="text" class="form-control" name ="choice1" id="choice1" placeholder="Text">
+                                            </div>
+                                            
+                                            <div class="form-group">
+                                                <label for="choice2">Choice 2</label>
+                                                <input type="text" class="form-control" name ="choice2" id="choice2" placeholder="Text">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="choice3">Choice 3</label>
+                                                <input type="text" class="form-control" name ="choice3" id="choice3" placeholder="Text">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="answer">Answer</label>
+                                                <input type="text" class="form-control" name ="answer" id="answer" placeholder="Correct Answer">
+                                            </div>
+  
+
+                                            <div class="form-group">
+                                                <label for="major">Beacon Major</label>
+                                                <input type="text" class="form-control" name ="major" id="major" placeholder="major">
+                                            </div>
+
+
+                                            <div class="form-group">
+                                                <label for="minor">Beacon Minor</label>
+                                                <input type="text" class="form-control" name ="minor" id="minor" placeholder="minor">
+                                            </div>
+
+
+                                            <div class="form-group">
+                                                <button type="submit" value="Submit" class="btn btn-primary">Submit</button>
+                                            </div>      
+                                    </div>                                               
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- CONTENT-WRAPPER SECTION END-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    &copy; 2015 FIA Flip the Museum | By : <a href="http://www.github.com/codergs" target="_blank">Gaurav Sharma</a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER SECTION END-->
+    <!-- JAVASCRIPT AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY SCRIPTS -->
+    <script src="assets/js/jquery-1.11.1.js"></script>
+    <!-- BOOTSTRAP SCRIPTS  -->
+    <script src="assets/js/bootstrap.js"></script>
+</body>
+</html>
